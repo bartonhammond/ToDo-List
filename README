@@ -32,4 +32,7 @@ The features supported
 
 Enjoy!
 
+----------------
+So trying to incorporate Backbone - wow what a web we weave!  So many levels of indirection. For example, the window.TodoView has event click which calls toggleDone
+
 
