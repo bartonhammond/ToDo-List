@@ -1,24 +1,7 @@
-My feeble attempt to replicate http://documentcloud.github.com/backbone/examples/todos/index.html using Application Craft http://www.applicationcraft.com/
+My feeble attempt to replicate http://documentcloud.github.com/backbone/examples/todos/index.html
+using Application Craft http://www.applicationcraft.com/
 
 You can see my running app here: http://acft.ws/bpwp
-
-If you're a AC user, just go the console and import the export from here.
-
-AC is a rich development environment with JQuery Mobile components amongst others.  It's a drag/drop IDE that's cloud based.
-
-I'm in the processing of learning AC.
-
-The other day I saw this tutorial about Backbone.js, which I've heard alot about.  I thought it would be interesting to try and replicate the ToDo functionality using AC.  It was interesting.  
-
-I wasn't able to do everything that the Backbone Todo did, not by far - I'm no UI developer to say the least.  Let me be clear, I didn't try to anything other then get a UI that looked like the Backbone ToDo.  Now I understand the complexity of event driven development and how (it looks to me) that Backbone brings to the table. 
-
-One thing, I couldn't figure out how to do the text-decoration: line-through on the items that are marked for deletion.  I worked within the constraints that AC has at this time.  The CEO Freddy May said that support for user css styles would be in 2 or so more releases from now.
-
-Another thing I couldn't do was figure out how to get changes to the html page outside the AC component framework.  I just wanted to add the stuff at the bottom of the page (double-click, view, created by..) and couldn't.
-
-But what struck me most was that my AC JS code is brittle - events flying all over and no great way organize it.  It feels, in a good way, like the old VB UI with Events and Propertiees.  I think the Backbone Todo is a much better implementation but thats mostly 'cause I don't know what I'm doing.  I can learn from it, for sure.
-
-I want to now look closer at Backbone and see what design patterns might lend themselves to AC development.  I might do this over when I figure something out.  
 
 The features supported
 
@@ -31,8 +14,5 @@ The features supported
 - Italize text when marked for deletion
 
 Enjoy!
-
-----------------
-So trying to incorporate Backbone - wow what a web we weave!  So many levels of indirection. For example, the window.TodoView has event click which calls toggleDone
 
 
