@@ -1,7 +1,14 @@
 My feeble attempt to replicate http://documentcloud.github.com/backbone/examples/todos/index.html
 using Application Craft http://www.applicationcraft.com/
 
-You can see my running app here: http://acft.ws/bpwp
+I first version is here: http://acft.ws/bpwp.  
+All the logic was contained in the event handlers and it made it difficult to maintain.  
+After reviewing the Backbone.js example I wanted to address my lack of design.
+
+The final version is here: http://acft.ws/buns
+My design follows what I am calling Model View Presenter. 
+I document the code and design here: http://bit.ly/xNNxJ7
+
 
 The features supported
 
