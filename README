@@ -9,17 +9,13 @@ The final version is here: http://acft.ws/buns
 My design follows what I am calling Model View Presenter. 
 I document the code and design here: http://bit.ly/xNNxJ7
 
-
-The features supported
-
-- Add todo with Enter
-- Mark todo for deletion
-- Immediately delete row using icon on row
-- Update in place
-- Messages at the bottom show status
-- Browser Local storage support
-- Italize text when marked for deletion
-
-Enjoy!
+-------
+Venues - My first implementation using MVP.  This was a proof of concept.  
+         Venues gets a feed from Foursquare using the lat/long and displays it
+         on map.  Interaction between Categories and Sub-categories controls the map.
+         As the mouse flys over the Markers, the Venue detail is displayed.
+         Popular places (by count of Foursquare users present) are summarized by count.
+ 
+         Demo: http://acft.ws/buvk
 
 
